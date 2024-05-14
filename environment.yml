@@ -1,0 +1,11 @@
+name: django-env
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - django
+  - djangorestframework
